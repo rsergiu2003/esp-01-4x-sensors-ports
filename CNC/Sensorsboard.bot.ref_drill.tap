@@ -1,0 +1,57 @@
+(.../Personal Projects/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../esp01-4xSensors/Sensorsboard.brd)
+(Current profile is .../pcb-gcode/profiles/generic.pp  )
+(This file generated 1/6/19 8:44 PM)
+(Settings from pcb-machine.h)
+(spindle on time = 0.5000)
+(tool change at 0.0000 0.0000 10.0000 )
+(feed rate xy = F0.00  )
+(feed rate z  = F0.00  )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(10.0000 	2.5400 	-0.1200 	-3.0000 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0254)
+(isolate max = 0.4000)
+(isolate step = 0.1400)
+(Generated top outlines, top drill, bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01  1.100mm 0.0433in 0.0000in 0.0000in )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+S20000
+G00 Z10.0000 
+G00 X0.0000 Y0.0000 
+M03
+G04 P0.500000
+M05
+M06 T01  ; 1.1000 
+G01 Z0.0000 F150.00 
+M06 
+G00 Z2.5400 
+M03
+G04 P0.500000
+G00 Z2.540000
+G00 X0.0000 Y0.0000 
+G01 Z-3.0000 F150.00 
+G01 Z2.540000
+(R2.5400  P1.000000)
+G00 X0.0000 Y29.2100 
+G01 Z-3.000000
+G01 Z2.540000
+G00 X35.5600 Y29.2100 
+G01 Z-3.000000
+G01 Z2.540000
+G00 X35.5600 Y0.0000 
+G01 Z-3.000000
+G01 Z2.540000
+T01 
+G00 Z10.0000 
+M05
+M02
