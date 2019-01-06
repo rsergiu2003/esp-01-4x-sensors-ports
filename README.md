@@ -1,4 +1,6 @@
-![alt text](https://github.com/rsergiu2003/esp-01-4x-sensors-ports/raw/master/board.png)
+![board image](https://github.com/rsergiu2003/esp-01-4x-sensors-ports/raw/master/board.png)
+
+![sketch image](https://github.com/rsergiu2003/esp-01-4x-sensors-ports/raw/master/sketch.png)
 
 # PCB for esp-01, with 4 sensors headers
 A simple pcb on which you can connect 4 sensors to the 4 gpio pins, also it has a voltage stabilizer which can take up to 30V (so you can safely power it up from 5,12,24V source)
