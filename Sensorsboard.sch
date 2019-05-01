@@ -3728,7 +3728,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="GND3" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="GND" device=""/>
 <part name="GND2" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="GND" device=""/>
 <part name="D1" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="LED-BLUE" device="0805" package3d_urn="urn:adsk.eagle:package:378040/2" value="POWER LED"/>
-<part name="R1" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:103226/5" value=" "/>
+<part name="R1" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:103226/5" value="1k"/>
 <part name="C1" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="C-US" device="C1206K" package3d_urn="urn:adsk.eagle:package:878060/2"/>
 <part name="JP2" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:80076/4"/>
 <part name="JP3" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:80076/4"/>

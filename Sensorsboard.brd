@@ -3,10 +3,10 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -186,6 +186,8 @@
 <hole x="35.56" y="29.21" drill="1.1"/>
 <hole x="0" y="29.21" drill="1.1"/>
 <wire x1="0" y1="0" x2="0" y2="21.59" width="1" layer="46"/>
+<dimension x1="0" y1="34.29" x2="35.56" y2="34.29" x3="17.78" y3="36.83" textsize="1.778" layer="47"/>
+<dimension x1="-5.08" y1="29.21" x2="-5.08" y2="0" x3="-7.62" y3="14.605" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="simple-shiled" urn="urn:adsk.eagle:library:80055">
@@ -644,7 +646,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.5062" y="18.4912" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="11.43" y="23.495" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R1" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" package="0805" package3d_urn="urn:adsk.eagle:package:103226/5" value=" " x="19.05" y="24.13" smashed="yes" rot="MR180">
+<element name="R1" library="simple-shiled" library_urn="urn:adsk.eagle:library:80055" package="0805" package3d_urn="urn:adsk.eagle:package:103226/5" value="1k" x="19.05" y="24.13" smashed="yes" rot="MR180">
 <attribute name="NAME" x="19.05" y="23.241" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="34.29" y="55.88" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="19.05" y="25.019" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
